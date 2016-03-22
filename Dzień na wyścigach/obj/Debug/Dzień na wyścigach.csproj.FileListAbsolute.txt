@@ -1,0 +1,9 @@
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\bin\Debug\Dzień na wyścigach.exe.config
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\bin\Debug\Dzień na wyścigach.exe
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\bin\Debug\Dzień na wyścigach.pdb
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\obj\Debug\Dzień na wyścigach.csprojResolveAssemblyReference.cache
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\obj\Debug\Dzień_na_wyścigach.Form1.resources
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\obj\Debug\Dzień_na_wyścigach.Properties.Resources.resources
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\obj\Debug\Dzień na wyścigach.csproj.GenerateResource.Cache
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\obj\Debug\Dzień na wyścigach.exe
+c:\users\mirek\documents\visual studio 2013\Projects\Dzień na wyścigach\Dzień na wyścigach\obj\Debug\Dzień na wyścigach.pdb
