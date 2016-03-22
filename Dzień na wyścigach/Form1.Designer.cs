@@ -51,6 +51,7 @@
             this.alBetLabel = new System.Windows.Forms.Label();
             this.racetrackPictureBox = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.maksimumBetLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -145,7 +146,7 @@
             // 
             this.minimumBetLabel.AutoSize = true;
             this.minimumBetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.minimumBetLabel.Location = new System.Drawing.Point(17, 42);
+            this.minimumBetLabel.Location = new System.Drawing.Point(20, 26);
             this.minimumBetLabel.Name = "minimumBetLabel";
             this.minimumBetLabel.Size = new System.Drawing.Size(131, 13);
             this.minimumBetLabel.TabIndex = 7;
@@ -154,15 +155,16 @@
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(17, 165);
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nameLabel.Location = new System.Drawing.Point(20, 164);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(24, 13);
+            this.nameLabel.Size = new System.Drawing.Size(31, 16);
             this.nameLabel.TabIndex = 8;
             this.nameLabel.Text = "Joe";
             // 
             // stawiabutton
             // 
-            this.stawiabutton.Location = new System.Drawing.Point(96, 155);
+            this.stawiabutton.Location = new System.Drawing.Point(57, 161);
             this.stawiabutton.Name = "stawiabutton";
             this.stawiabutton.Size = new System.Drawing.Size(75, 23);
             this.stawiabutton.TabIndex = 9;
@@ -172,7 +174,7 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(198, 155);
+            this.numericUpDown1.Location = new System.Drawing.Point(159, 161);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             15,
             0,
@@ -184,7 +186,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(51, 20);
             this.numericUpDown1.TabIndex = 10;
             this.numericUpDown1.Value = new decimal(new int[] {
             5,
@@ -195,7 +197,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(338, 162);
+            this.label3.Location = new System.Drawing.Point(216, 165);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 13);
             this.label3.TabIndex = 11;
@@ -203,7 +205,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(457, 160);
+            this.numericUpDown2.Location = new System.Drawing.Point(318, 161);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             4,
             0,
@@ -215,7 +217,7 @@
             0,
             0});
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown2.Size = new System.Drawing.Size(45, 20);
             this.numericUpDown2.TabIndex = 12;
             this.numericUpDown2.Value = new decimal(new int[] {
             1,
@@ -282,6 +284,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.maksimumBetLabel);
             this.groupBox1.Controls.Add(this.minimumBetLabel);
             this.groupBox1.Controls.Add(this.startbutton);
             this.groupBox1.Controls.Add(this.alBetLabel);
@@ -302,6 +305,17 @@
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dom bukmacherski";
+            // 
+            // maksimumBetLabel
+            // 
+            this.maksimumBetLabel.AutoSize = true;
+            this.maksimumBetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.maksimumBetLabel.Location = new System.Drawing.Point(20, 45);
+            this.maksimumBetLabel.Name = "maksimumBetLabel";
+            this.maksimumBetLabel.Size = new System.Drawing.Size(155, 13);
+            this.maksimumBetLabel.TabIndex = 19;
+            this.maksimumBetLabel.Text = "Maksymalny zakład: 15 zł";
+            this.maksimumBetLabel.UseMnemonic = false;
             // 
             // Form1
             // 
@@ -355,6 +369,7 @@
         private System.Windows.Forms.Label alBetLabel;
         private System.Windows.Forms.PictureBox racetrackPictureBox;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label maksimumBetLabel;
     }
 }
 

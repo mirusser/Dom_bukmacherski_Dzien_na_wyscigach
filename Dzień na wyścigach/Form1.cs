@@ -99,19 +99,39 @@ namespace Dzień_na_wyścigach
             nameLabel.Text = "Al";
         }
 
+        public bool properValuesInNumericUpDown(int BetAmount, int GreyhoundNumber)
+        {
+            if (BetAmount >= 5 && BetAmount <= 15 && GreyhoundNumber >= 1 && GreyhoundNumber <= 4)
+                return true;
+            else
+            {
+                MessageBox.Show("Podano nieprawidłową wartość","Błędna wartość");
+                return false;
+            }
+        }
+
         private void stawiabutton_Click(object sender, EventArgs e)
         {
             if(joeradioButton1.Checked)
             {
-                GuyArray[0].PlaceBet((int)numericUpDown1.Value,(int)numericUpDown2.Value);
+                if (properValuesInNumericUpDown((int)numericUpDown1.Value, (int)numericUpDown2.Value))
+                {
+                    GuyArray[0].PlaceBet((int)numericUpDown1.Value,(int)numericUpDown2.Value);
+                }         
             }
             else if (bobradioButton.Checked)
             {
-                GuyArray[1].PlaceBet((int)numericUpDown1.Value, (int)numericUpDown2.Value);
+                if (properValuesInNumericUpDown((int)numericUpDown1.Value, (int)numericUpDown2.Value))
+                {
+                    GuyArray[1].PlaceBet((int)numericUpDown1.Value, (int)numericUpDown2.Value);
+                }        
             }
             else if (alradioButton.Checked)
             {
-                GuyArray[2].PlaceBet((int)numericUpDown1.Value, (int)numericUpDown2.Value);
+                if (properValuesInNumericUpDown((int)numericUpDown1.Value, (int)numericUpDown2.Value))
+                {
+                    GuyArray[2].PlaceBet((int)numericUpDown1.Value, (int)numericUpDown2.Value);
+                } 
             }
         }
 
@@ -120,6 +140,5 @@ namespace Dzień_na_wyścigach
             groupBox1.Enabled = false;
             timer1.Start();
         }
-
     }
 }
